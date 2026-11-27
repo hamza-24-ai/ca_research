@@ -1,0 +1,2 @@
+device,steps,total_time_s,first_warmup_steps_s,step_median_s,step_mean_s,step_std_s,peak_mem_MB,final_loss_avg100,heldout_accuracy
+cuda,2000,18.68585356899996,0.9543833440001208,0.008095328499990728,0.008448041636181151,0.0021573198697130164,361.14944,7.059189825057984,0.1404

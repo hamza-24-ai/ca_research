@@ -1,0 +1,6 @@
+device,gflops_median,median_s,n,precision,rel_error_vs_fp32,status,std_s
+tpu,5475.131994462965,0.0003922250002688088,1024,fp32,0.0,ok,2.281900257024475e-05
+tpu,5618.59618203096,0.0003822100002253137,1024,bf16,0.0016627284931018949,ok,1.940302445525936e-05
+tpu,5082.500794320897,0.00042252499997630366,1024,fp16,0.0020437368657439947,ok,5.2932786327618545e-05
+tpu,,,1024,int8,,not supported: RuntimeError: operator 'aten::_int_mm' is not implemented for TPU. Please file a feature request,
+tpu,,,1024,transfer,,transfer test: see note (host-to-device),
